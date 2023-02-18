@@ -11,3 +11,16 @@ class Person
     end
   end
 end
+
+bob_attributes = { name: "Bob", hair_color: "Brown" }
+
+bob = Person.new(bob_attributes)
+puts bob.name       
+puts bob.hair_color 
+
+susan_attributes = { name: "Susan", height: "5'11\"", eye_color: "Green" }
+
+susan = Person.new(susan_attributes)
+puts susan.name      
+puts susan.height    
+puts susan.eye_color
